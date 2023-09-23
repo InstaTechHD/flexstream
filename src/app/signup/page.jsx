@@ -97,8 +97,8 @@ const page = () => {
                         <hr className=' w-1/2 mx-2 border-white' /><p className=' text-xs text-white'>or</p><hr className=' w-1/2 mx-2 border-white' />
                         </div>
                         <div className=" w-full flex justify-center">
-                            <button onClick={() => signIn('google')} type='button' className="flex items-center gap-[.7px] hover:border-[#00e6e6] justify-center px-4 py-2 group font-medium border-2 border-white rounded-sm">
-                                <FaGoogle className=" group-hover:text-[#00e6e6]"/>oogle
+                            <button onClick={() => signIn('google')} type='button' className="flex items-center gap-[.7px] hover:border-[#0099e6] justify-center px-4 py-2 group font-medium border-2 border-white rounded-sm">
+                                <FaGoogle className=" group-hover:text-[#0099e6]"/>oogle
                             </button>
                         </div>
                         <p className=" w-full flex justify-center gap-2">
