@@ -65,7 +65,7 @@ const VolumeBar = ({ value, min, max, onChange, setVolume, activeSong, data }) =
         min={min}
         max={max}
         onChange={onChange}
-        className="2xl:w-24 lg:w-24 md:w-28 h-1 ml-2 accent-[#00e6e6] cursor-pointer"
+        className="2xl:w-24 lg:w-24 md:w-28 h-1 ml-2 accent-[#0099e6] cursor-pointer"
       />
     </div>
      {/* overlay */}
