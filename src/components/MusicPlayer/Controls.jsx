@@ -14,16 +14,16 @@ const Controls = ({ isPlaying, repeat, setRepeat, shuffle, setShuffle, currentSo
       {
         !repeat ? (
           <TbRepeat title='Repeat' size={25} color={'white'} onClick={(e) => { e.stopPropagation(); setRepeat((prev) => !prev) }} className={`${!fullScreen ? 'hidden sm:block' : ' m-3'} cursor-pointer`} />) : (
-          <TbRepeatOnce title='Repeat Once' size={25} color={repeat ? '#00e6e6' : 'white'} onClick={(e) => { e.stopPropagation(); setRepeat((prev) => !prev) }} className={`${!fullScreen ? 'hidden sm:block' : ' m-3'} cursor-pointer`} />
+          <TbRepeatOnce title='Repeat Once' size={25} color={repeat ? '#0099e6' : 'white'} onClick={(e) => { e.stopPropagation(); setRepeat((prev) => !prev) }} className={`${!fullScreen ? 'hidden sm:block' : ' m-3'} cursor-pointer`} />
         )
 
       }
 
       {<MdSkipPrevious title='Previous' size={35} color={currentSongs?.length ? '#ffff' : '#b3b3b3'} className="cursor-pointer" onClick={handlePrevSong} />}
       {isPlaying ? (
-        <BsFillPauseFill size={45} color="#00e6e6" onClick={handlePlayPause} className="cursor-pointer" />
+        <BsFillPauseFill size={45} color="#0099e6" onClick={handlePlayPause} className="cursor-pointer" />
       ) : (
-        <BsFillPlayFill size={45} color="#00e6e6" onClick={handlePlayPause} className="cursor-pointer" />
+        <BsFillPlayFill size={45} color="#0099e6" onClick={handlePlayPause} className="cursor-pointer" />
       )}
       {<MdSkipNext title='Next' size={35} color={currentSongs?.length ? '#ffff' : '#b3b3b3'} className="cursor-pointer" onClick={handleNextSong} />}
       <TbArrowsShuffle title='Shuffle' size={25} color={shuffle ? '#00e6e6' : 'white'} onClick={(e) => { e.stopPropagation(); setShuffle((prev) => !prev) }} className={`${!fullScreen ? 'hidden sm:block' : 'm-3'} cursor-pointer`} />
