@@ -22,8 +22,8 @@ const page = async () => {
           </ul>
           <div
             // onClick={() => {handlePlayClick(playlistData?.songs?.[0], 0);}}
-            className="flex items-center gap-2 mt-5 rounded-3xl py-2 px-3 hover:border-[#00e6e6] group w-fit cursor-pointer border border-white">
-            <BsFillPlayFill size={25} className="text-gray-200 group-hover:text-[#00e6e6]" />
+            className="flex items-center gap-2 mt-5 rounded-3xl py-2 px-3 hover:border-[#0099e6] group w-fit cursor-pointer border border-white">
+            <BsFillPlayFill size={25} className="text-gray-200 group-hover:text-[#0099e6]" />
             <p className="text-lg font-semibold">Play</p>
           </div>
         </div>
