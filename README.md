@@ -1,4 +1,4 @@
-   ![Project Banner](https://i.ibb.co/1Q2FS17/Logo.png)(https://flexstream.us/)
+   ![Project Banner](https://i.ibb.co/1Q2FS17/Logo.png)](https://flexstream.us/)
 
 This is a free music streaming web application built with Next.js and powered by the [savan API](https://github.com/sumitkolhe/jiosaavn-api). The app allows users to search and stream music from a vast collection of songs available on the Saavn platform.
 
