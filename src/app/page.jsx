@@ -31,11 +31,11 @@ export default function Home() {
         <div className='absolute top-4 left-16 z-50'>
           <div className=' relative bg-[#3a3b3b] p-4 rounded-lg'>
             <p className=' text-lg text-gray-300'>
-              Create your own <span className='text-[#00e6e6]'>Playlists</span> <br />and
-              add songs to <span className='text-[#00e6e6]'>Favourite</span>
+              Create your own <span className='text-[#0099e6]'>Playlists</span> <br />and
+              add songs to <span className='text-[#0099e6]'>Favourite</span>
             </p>
             <div className=' flex items-center mt-2 justify-end'>
-              <button onClick={handleClick} className=' bg-[#00e6e6] text-black px-3 py-2 rounded-lg'>Ok</button>
+              <button onClick={handleClick} className=' bg-[#0099e6] text-black px-3 py-2 rounded-lg'>Ok</button>
             </div>
             <div className=' absolute top-2 -left-2 bg-[#3a3b3b] rotate-[50deg] w-6 h-6'></div>
           </div>
