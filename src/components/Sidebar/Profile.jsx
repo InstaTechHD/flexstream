@@ -34,13 +34,13 @@ const Profile = ({setShowNav}) => {
                             <button onClick={()=>{
                                 setShowNav(false);
                                 router.push('/login');
-                            }} className=' border-2 border- px-3 py-1 m-2 rounded text-lg  border-[#00e6e6]'>
+                            }} className=' border-2 border- px-3 py-1 m-2 rounded text-lg  border-[#0099e6]'>
                             Login&nbsp;
                             </button>
                             <button onClick={()=>{
                                 setShowNav(false);
                                 router.push('/signup');
-                            }} className=' border-2 border- px-3 py-1 m-2 rounded text-lg  border-[#00e6e6]'>
+                            }} className=' border-2 border- px-3 py-1 m-2 rounded text-lg  border-[#0099e6]'>
                             Signup
                             </button>
                         </div>
