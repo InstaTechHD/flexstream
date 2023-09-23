@@ -1,5 +1,4 @@
 import React from 'react'
-import  logoWhite from '../../assets/logoWhite.png'
 import Languages from './Languages'
 import Favourites from './Favourites'
 import { FaGithub } from 'react-icons/fa'
