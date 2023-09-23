@@ -1,4 +1,4 @@
-   [![Project Banner](https://github-production-user-asset-6210df.s3.amazonaws.com/99420590/256470702-de779111-e63e-4ecc-93d1-e79edadf19ed.png)(https://res-console.cloudinary.com/dhgxexscp/thumbnails/v1/image/upload/v1695502112/TG9nb19qc25ibGs=/grid_landscape))](https://flexstream.us/)
+   [![Project Banner](https://github-production-user-asset-6210df.s3.amazonaws.com/99420590/256470702-de779111-e63e-4ecc-93d1-e79edadf19ed.png)(https://res.cloudinary.com/dhgxexscp/image/upload/v1695502112/Logo_jsnblk.png))(https://res-console.cloudinary.com/dhgxexscp/thumbnails/v1/image/upload/v1695502112/TG9nb19qc25ibGs=/grid_landscape))](https://flexstream.us/)
 
 This is a free music streaming web application built with Next.js and powered by the [savan API](https://github.com/sumitkolhe/jiosaavn-api). The app allows users to search and stream music from a vast collection of songs available on the Saavn platform.
 
